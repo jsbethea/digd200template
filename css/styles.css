@@ -1,0 +1,33 @@
+:root {
+    
+ --my-green: #198754;   
+ 
+}
+  
+.btn-primary {
+    background:var(--my-green);
+    border:var(--my-green);
+}
+.btn-primary:hover, .btn-primary:active{
+    background:var(--bs-teal);
+}
+
+.btn-primary:focus {
+     background:var(--bs-teal);
+    border:var(--my-green);
+    box-shadow: 0 0 0 .25rem rgba(25,135,84,.5);
+}
+
+
+a.active {
+  border-bottom: 1px solid green;
+}
+
+.my-special-hero {    
+    background-image: url(https://picsum.photos/seed/picsum/1200/800);
+    background-position: center;
+    background-size: cover;
+}
+.my-special-hero--teaser {
+  background: rgb(255,255,255,.5);    
+}
